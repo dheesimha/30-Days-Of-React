@@ -1,26 +1,26 @@
-const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya',
-]
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya',
+// ]
 
-const webTechs = [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Redux',
-    'Node',
-    'MongoDB',
-]
+// const webTechs = [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Redux',
+//     'Node',
+//     'MongoDB',
+// ]
 
 
 // let arr = []
@@ -66,6 +66,36 @@ const webTechs = [
 // companies.splice(0, companies.length)
 // console.log(companies);
 
+// let text =
+//     'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+
+// let words = text.split(' ')
+// console.log(words);
+// console.log(words.length);
+
+
+// const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+
+// shoppingCart.unshift('Meat')
+// shoppingCart.push('Sugar')
+// shoppingCart.splice(4, 1)
+// shoppingCart[3] = 'Green Tea'
+
+
+// console.log(shoppingCart);
 
 
 
+// let ans = countries.includes('Ethiopia');
+// ans ? console.log('Exists') : countries.push('Ethiopia')
+
+// let ans = webTechs.includes('Sass')
+
+// ans ? console.log('Sass is a CSS preprocess') : webTechs.push('Sass') && console.log(webTechs);
+
+// const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+// const backEnd = ['Node', 'Express', 'MongoDB']
+
+// const fullStack = frontEnd.concat(backEnd)
+
+// console.log(fullStack)
