@@ -207,3 +207,57 @@ const webTechs = [
 
 // let num = prompt("Enter a number")
 // num % 2 === 0 ? console.log(`${num} is an even number`) : console.log(`${num} is an odd number`);
+
+
+// let score = prompt(`Enter a score between 0 and 100`)
+
+// switch (true) {
+//     case score >= 90 && score <= 100:
+//         console.log("A");
+
+//         break;
+
+//     case score >= 70 && score <= 89:
+//         console.log("B");
+//         break;
+
+//     case score >= 60 && score <= 69:
+//         console.log("C");
+//         break
+
+//     case score >= 50 && score <= 59:
+//         console.log("D");
+//         break
+
+//     case score >= 0 && score <= 49:
+//         console.log("F")
+//         break;
+
+//     default: console.log("Enter a valid score ");
+//         break;
+// }
+
+
+let season = prompt("Enter a month")
+
+season = season.toLowerCase()
+
+switch (season) {
+    case "september" || "october" || "november":
+        console.log("Autumn")
+        break
+
+    case "december" || "january" || "february":
+        console.log("Winter")
+        break
+
+    case "march" || "april" || "may":
+        console.log("Spring")
+        break
+
+    case "june" || "july" || "august":
+        console.log("Summer")
+        break
+
+
+}
