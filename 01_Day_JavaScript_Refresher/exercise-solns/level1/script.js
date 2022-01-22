@@ -238,26 +238,148 @@ const webTechs = [
 // }
 
 
-let season = prompt("Enter a month")
+// let season = prompt("Enter a month")
 
-season = season.toLowerCase()
+// season = season.toLowerCase()
 
-switch (season) {
-    case "september" || "october" || "november":
-        console.log("Autumn")
-        break
+// switch (season) {
+//     case "september" || "october" || "november":
+//         console.log("Autumn")
+//         break
 
-    case "december" || "january" || "february":
-        console.log("Winter")
-        break
+//     case "december" || "january" || "february":
+//         console.log("Winter")
+//         break
 
-    case "march" || "april" || "may":
-        console.log("Spring")
-        break
+//     case "march" || "april" || "may":
+//         console.log("Spring")
+//         break
 
-    case "june" || "july" || "august":
-        console.log("Summer")
-        break
+//     case "june" || "july" || "august":
+//         console.log("Summer")
+//         break
 
+
+// }
+
+
+// For of loop
+
+
+// const countries3 = ["India", "China", "USA", "Germany"]
+
+// for (country of countries3) {
+//     console.log(country);
+// }
+
+
+// for Each loop
+
+// countries3.forEach((country, index) => {
+//     console.log(country, index);
+// })
+
+
+// const person =
+// {
+//     name: "Dheemanth",
+//     age: 20,
+//     college: "DSCE"
+// }
+
+// for (const key in person) {
+//     console.log(`${key} => ${person[key]}`);
+// }
+
+
+
+// a = 'Javascript'
+// b = 10
+
+// function letsLearnScope() {
+//     console.log(a, b);
+
+//     if (true) {
+//         console.log(a, b);
+//     }
+// }
+
+// console.log(a, b);
+
+// letsLearnScope()
+
+
+// function letsLearnScope() {
+//     let gravity = 9.81
+//     console.log(gravity);
+// }
+
+// letsLearnScope()
+// let gravity = 3
+// console.log(gravity);
+
+// const person = {
+//     name: "Dheemanth",
+//     school: "Prarthana",
+//     getFullName: function () {
+//         return `${this.name} whose school is ${this.school}`
+//     }
+// }
+
+// console.log(person.getFullName());
+
+
+// const person = {
+//     firstName: 'Asabeneh',
+//     lastName: 'Yetayeh',
+//     age: 250,
+//     country: 'Finland',
+//     city: 'Helsinki',
+//     skills: [
+//         'HTML',
+//         'CSS',
+//         'JavaScript',
+//         'React',
+//         'Node',
+//         'MongoDB',
+//         'Python',
+//         'D3.js',
+//     ],
+//     getFullName: function () {
+//         return `${this.firstName} ${this.lastName}`
+//     },
+// }
+// person.nationality = 'Ethiopian'
+// person.country = 'Finland'
+// person.title = 'teacher'
+// person.skills.push('Meteor')
+// person.skills.push('SasS')
+// person.isMarried = true
+
+
+// person.getPersonInfo = function () {
+//     let skillsWithoutLastSkill = person.skills.slice(0, this.skills.length - 1).join(',')
+//     console.log(skillsWithoutLastSkill);
+// }
+
+// // let lastSkill = this.skills.slice(this.skills.length - 1)[0]
+
+// person.getPersonInfo()
+// // console.log(lastSkill);
+
+
+const dogs =
+{
+    name: "zoko",
+    color: "tricolor",
+    age: 2,
+    bark: function () { return "woof woof" },
+    getDogInfo: function () {
+        return `${this.name} is the dog and his colour is ${this.color} ,his age is ${this.age}`
+    }
 
 }
+
+console.log(dogs);
+console.log(dogs.bark());
+console.log(dogs.getDogInfo());
