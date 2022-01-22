@@ -1,26 +1,26 @@
-// const countries = [
-//     'Albania',
-//     'Bolivia',
-//     'Canada',
-//     'Denmark',
-//     'Ethiopia',
-//     'Finland',
-//     'Germany',
-//     'Hungary',
-//     'Ireland',
-//     'Japan',
-//     'Kenya',
-// ]
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya',
+]
 
-// const webTechs = [
-//     'HTML',
-//     'CSS',
-//     'JavaScript',
-//     'React',
-//     'Redux',
-//     'Node',
-//     'MongoDB',
-// ]
+const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB',
+]
 
 
 // let arr = []
@@ -99,3 +99,111 @@
 // const fullStack = frontEnd.concat(backEnd)
 
 // console.log(fullStack)
+
+
+
+// level 3 exercise
+
+// const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+// ages.sort()
+
+// console.log(ages);
+
+// console.log('Min age is ' + ages[0] + " and max age is " + ages[ages.length - 1]);
+
+// let ageLength = ages.length
+// if (ageLength % 2 == 1) {
+//     console.log('The median age is ' + ages[Number(ageLength / 2)]);
+// }
+// else {
+//     console.log('The median ages are ' + ages[Number(ageLength / 2)] + ' and ' + ages[Number(ageLength / 2) + 1])
+// }
+
+
+// console.log(countries.slice(0, 10));
+
+// // console.log(countries[Number(countries.length / 2)]);
+
+// // let middleLength = Number(countries.length / 2)
+
+// let country1 = countries.slice(0, countries.length / 2)
+// console.log(country1);
+
+// let country3 = countries.slice(5, -1)
+// console.log(country3);
+
+
+// let num = 56
+// if (num > 3) {
+//     console.log(`${num} is greater than 3`);
+
+// }
+
+// else {
+//     console.log(`${num} is less than 3`);
+// }
+
+
+// let weather = "w"
+
+// switch (weather) {
+//     case "rainy": console.log(`The weather is ${weather}`);
+//         break
+
+//     case "sunny": console.log(`The weather is hot and ${weather}`);
+//         break
+
+
+//     case "winter": console.log(`The weather is cold outside as it is ${weather}`)
+//         break
+
+//     default: console.log(`The temperature isn't properly known today .So keep a track of weather by looking out :)`);
+// }
+
+
+// let age = prompt('Enter your age')
+// console.log(age);
+
+// // switch (true) {
+
+// //     case age < 18:
+// //         let remaining = 18 - age
+// //         console.log(`You are left with ${remaining} years to drive`);
+// //         break
+
+
+// //     case age >= 18: console.log("You are old enough to drive");
+// //         break
+// // }
+
+
+// let myage = 20;
+
+// switch (true) {
+//     case myage > age:
+//         let difference = myage - age
+//         console.log(`I am ${difference} years older than you`);
+
+//         break;
+
+//     case age > myage:
+//         difference = age - myage
+//         console.log(`You are ${difference} years older than me`);
+//         break
+
+//     default:
+//         break;
+// }
+
+
+
+
+
+// let a = 4, b = 3
+
+// a > b ? console.log(`a is greater than b`) : console.log("b is greater than a");
+
+
+// let num = prompt("Enter a number")
+// num % 2 === 0 ? console.log(`${num} is an even number`) : console.log(`${num} is an odd number`);
